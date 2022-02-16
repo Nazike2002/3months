@@ -8,18 +8,23 @@
 <h2>Title: {{ book.title }}</h2>
 <p>Content: {{ book.description }}</p>
 <img src="{{ book.image.url }}" alt="">
-<p>Created Date: {{ book.created_date }}</p>
+<p>Created Date:{{ book.created_date }}</p>
 <p>Updated Date:{{ book.updated_date }}</p>
-<p>Author:{{ book.author }}</p>
+<p>Author:{{ author.name }}</p>
+<p>Date birth:{{author.date_birth}}</p>
+<p>Story:{{author.story_author}}</p>
+<p>Interesting facts:{{author.interesting_facts}}</p>
+
 <div>
     <h2>Reviews:</h2>
     <ul>
         {% for i in review %}
-            <li>
-                <p>{{ i.text }}</p>
-            </li>
+        <li>
+            <p>{{ i.text }}</p>
+        </li>
         {% endfor %}
     </ul>
 </div>
 </body>
 </html>
+

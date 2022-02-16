@@ -8,11 +8,11 @@
 <div>
     <ul>
         {% for i in book %}
-            <li>
-                <h2><a href="/books/{{ i.id }}/">{{ i.title }}</a></h2>
-                <p>{{ i.description }}</p>
-                <img src="{{ i.image.url }}" alt="">
-            </li>
+        <li>
+            <h2><a href="/books/{{ i.id }}/">{{ i.title }}</a></h2>
+            <p>{{ i.description }}</p>
+            <img src="{{ i.image.url }}" alt="">
+        </li>
         {% endfor %}
     </ul>
 </div>
