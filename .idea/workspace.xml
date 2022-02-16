@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6da116ff-40e9-4b2c-9cdf-f4e77130cfb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/book/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add_book_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book_list.html" afterDir="false" />
-    </list>
+    <list default="true" id="6da116ff-40e9-4b2c-9cdf-f4e77130cfb6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +103,7 @@
       <workItem from="1644914548391" duration="787000" />
       <workItem from="1644915448709" duration="109000" />
       <workItem from="1644915628211" duration="323000" />
-      <workItem from="1644915989997" duration="29665000" />
+      <workItem from="1644915989997" duration="29970000" />
     </task>
     <servers />
   </component>
