@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,6 +13,7 @@
             <h2><a href="/books/{{ i.id }}/">{{ i.title }}</a></h2>
             <p>{{ i.description }}</p>
             <img src="{{ i.image.url }}" alt="">
+            <button></button>
         </li>
         {% endfor %}
     </ul>

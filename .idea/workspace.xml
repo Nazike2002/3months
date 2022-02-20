@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6da116ff-40e9-4b2c-9cdf-f4e77130cfb6" name="Changes" comment="" />
+    <list default="true" id="6da116ff-40e9-4b2c-9cdf-f4e77130cfb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae6d795b-eafa-4ea6-ac75-187c6ae2bc47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ae6d795b-eafa-4ea6-ac75-187c6ae2bc47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book_list.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +68,10 @@
       <recent name="C:\Users\User\PycharmProjects\hw\static" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.book_list.html">
+    <configuration name="book_list.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hw/templates/book_list.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,6 +94,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.book_list.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,7 +118,10 @@
       <workItem from="1644914548391" duration="787000" />
       <workItem from="1644915448709" duration="109000" />
       <workItem from="1644915628211" duration="323000" />
-      <workItem from="1644915989997" duration="29970000" />
+      <workItem from="1644915989997" duration="31456000" />
+      <workItem from="1645105457820" duration="1567000" />
+      <workItem from="1645137814603" duration="9102000" />
+      <workItem from="1645371670650" duration="1821000" />
     </task>
     <servers />
   </component>
