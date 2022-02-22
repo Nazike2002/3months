@@ -3,6 +3,8 @@ from . import models, forms
 from django.shortcuts import get_object_or_404
 from django.shortcuts import reverse, redirect
 from django.http import Http404, HttpResponse
+from django.views import generic
+
 
 
 def book_all(request):
