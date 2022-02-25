@@ -5,7 +5,7 @@ from . import models, forms
 
 
 class BooksListView(generic.ListView):
-    template_name = "book_list.html"
+    template_name = "books_list.html"
     queryset = models.Book.objects.all()
     context_object_name = 'book'
 
@@ -15,7 +15,7 @@ class BooksListView(generic.ListView):
 
 # def book_all(request):
 #     book = models.Book.objects.all()
-#     return render(request, "book_list.html", {"book": book})
+#     return render(request, "books_list.html", {"book": book})
 
 class BooksDetailViews(generic.DetailView):
     template_name = "book_detail.html"
@@ -111,7 +111,7 @@ def add_books(request):
         form = forms.Book_form(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            # return redirect(reverse("books : book_list.html"))
+            # return redirect(reverse("books : books_list.html"))
             return redirect("/books/")
 
     else:

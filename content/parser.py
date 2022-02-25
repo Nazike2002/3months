@@ -2,8 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 from django.views.decorators.csrf import csrf_exempt
 
-
-
 HOST = "https://animekisa.tv"
 
 URL = "https://animekisa.tv/latest/1"
@@ -18,15 +16,13 @@ HEADERS = {
 }
 
 
-
 @csrf_exempt
-
 def get_html(url, params=""):
     req = requests.get(url, headers=HEADERS, params=params)
     return req
 
-@csrf_exempt
 
+@csrf_exempt
 def get_content(html):
     soup = BeautifulSoup(html, "html.parser")
     items = soup.find_all("div", class_="episode-box test")
@@ -42,8 +38,8 @@ def get_content(html):
     print(anime)
     return anime
 
-@csrf_exempt
 
+@csrf_exempt
 def parser():
     html = get_html(URL)
     if html.status_code == 200:
@@ -60,13 +56,12 @@ def parser():
 
 
 @csrf_exempt
-
 def get_html(url_2, params=""):
     req = requests.get(url_2, headers=HEADERS, params=params)
     return req
 
-@csrf_exempt
 
+@csrf_exempt
 def get_content(html):
     soup = BeautifulSoup(html, "html.parser")
     items = soup.find_all("div", class_="album-item")
@@ -82,8 +77,8 @@ def get_content(html):
     print(books)
     return books
 
-@csrf_exempt
 
+@csrf_exempt
 def parser():
     html = get_html(URL_2)
     if html.status_code == 200:
@@ -93,4 +88,4 @@ def parser():
             books.extend(get_content(html.text))
             return books
     else:
-        raise ValueError("Error in ANIME PARSER")
+        raise ValueError("Error in BOOKS PARSER")
